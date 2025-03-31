@@ -8,6 +8,5 @@ import connectDB from "./db/index.js";
 dotenv.config({
     path: './env'
 })
-// console.log("Server is starting...");
 
 connectDB()
